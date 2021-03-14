@@ -10,17 +10,15 @@ import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
 
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class);
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-fourth-application";
+        String groupId = "my-fifth-application";
         String topic = "first_topic";
 
         // create consumer configs
