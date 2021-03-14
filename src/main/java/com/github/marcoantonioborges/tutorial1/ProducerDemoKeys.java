@@ -12,7 +12,7 @@ public class ProducerDemoKeys {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
+        Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
 

@@ -15,7 +15,7 @@ import java.util.Properties;
 public class ConsumerDemoGroups {
 
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class);
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
         String groupId = "my-fifth-application";
